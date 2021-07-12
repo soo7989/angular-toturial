@@ -1,1 +1,16 @@
-<p>heroes works!</p>
+
+<input type="text" [formControl]="inputHero">
+
+<p>
+  <button (click)="viewHeroList">view</button>눌렀을 때, 그동안의 목록을 한꺼번에 노출
+</p>
+<ul>
+  <li *ngFor="let item of heroes">{{item | uppercase}}</li>
+</ul>
+
+<p>
+  <button (click)="addHeroList()">add</button>를 눌렀을 때, 즉시 값을 표시
+</p>
+<app-hero-list [heroes]="heroList" ></app-hero-list>
+
+

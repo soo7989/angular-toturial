@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {FormControl} from "@angular/forms";
+import {HeroService} from "../hero.service";
+
 
 @Component({
   selector: 'app-heroes',
@@ -7,9 +10,26 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeroesComponent implements OnInit {
 
-  constructor() { }
+  inputHero = new FormControl();
+  heroes = this.heroService;
+  heroList: string[] = [];
+
+  constructor(
+    private heroService: HeroService
+  ) { }
 
   ngOnInit() {
   }
+
+  viewHeroList(): void{
+    this.heroList.push(this.inputHero.value);
+    this.inputHero.setValue('');
+  }
+
+  addHeroList(): void {
+    this.heroList.push(this.inputHero.value);
+    this.inputHero.setValue('');
+  }
+
 
 }

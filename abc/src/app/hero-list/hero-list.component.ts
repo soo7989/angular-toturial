@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-hero-list',
@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./hero-list.component.sass']
 })
 export class HeroListComponent implements OnInit {
+  @Input() heroes?: string[];
 
   constructor() { }
 
