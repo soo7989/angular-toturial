@@ -7,6 +7,7 @@ import { Hero } from "../hero";
   styleUrls: ['./hero-detail.component.css']
 })
 export class HeroDetailComponent implements OnInit {
+  // 부모로부터 값을 받아옵니다.
   @Input() heroListDetail: string[];
 
   constructor() { }

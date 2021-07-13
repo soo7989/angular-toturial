@@ -10,7 +10,7 @@ import { MessageService } from "../message.service";
 })
 
 export class HeroesComponent implements OnInit {
-
+  // 여기는 과제 범위에 벗어나므로 모듈에서 제외하였습니다.
   heroes: Hero[] = [];
   selectedHero?: Hero;
 
