@@ -6,22 +6,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## feedback - 21.07.13
+코드 전체를 보고 느낀점은 보유하신 기술이 이해하시는 범위보다 많다고 느껴집니다.
+이러한 경우 과제를 어떻게 설계할 것인지만 정리되면 개발을 쉽게 풀어가실 수 있으니 매우 긍정적으로 보입니다.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+rxjs 기술을 사용하셨는데 그것도 틀린 방법은 아닙니다.
+가진 기술을 모두 활용하여 과제 해결에 적극 활용하여 주시면 제가 더 많은 참고가 될 것 같습니다.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+각 파일에 주석을 달았으니 개발에 참고가 되었으면 합니다.

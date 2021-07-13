@@ -1,3 +1,15 @@
 <h1>{{title}}</h1>
-<app-heroes></app-heroes>
+
+<!--
+  여기에 입력하는 부분이 들어갑니다.
+-->
+<input type="text" [formControl]="heroControl">
+<button (click)="add()">ADD</button>
+
+<!--
+  과제에서는 app-heroes를 패스하고 app-hero-detail로 직접 접근 합니다.
+  <app-heroes></app-heroes>
+-->
+<!-- component의 heroList변수를 자식 component의 heroListDetail 변수에 전달 -->
+<app-hero-detail [heroListDetail]="heroList"></app-hero-detail>
 <app-messages></app-messages>

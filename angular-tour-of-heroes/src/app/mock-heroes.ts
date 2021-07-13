@@ -1,3 +1,7 @@
+/**
+ * Angular 사이트의 예제에서는 기본적으로 값을 들고 있는 모양이었으나
+ * 저희는 아직 거기까지 진행하지 않고 있어서 지금은 사용하지 않습니다.
+ */
 import { Hero } from './hero';
 
 export const HEROES: Hero[] = [
